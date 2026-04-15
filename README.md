@@ -55,6 +55,40 @@ Make sure you have the following installed:
 ### Installation Steps
 
 #### 1.Clone the Repository
-bash git clone https://github.com/CodeAlpha_Flashcard_Quiz_App.git
-##
+##   2.Navigate to Project Directory
+ cd flashcard_quiz_app
+##   3.Get Dependencies
+  flutter pub get
+##   4.Run the App
+   flutter run
+## Run on Specific Device
+# Run on Android
+flutter run -d android
+# Run on iOS (Mac only)
+flutter run -d ios
+# Run on Chrome (Web)
+flutter run -d chrome
 
+## Building APK
+To generate an APK file for Android:  flutter build apk --release
+
+## How to Use
+Tap "Slide to start" on the welcome screen
+Select a category (AI, Grammar, GK, or Hardware)
+Choose a difficulty level (Easy, Medium, or Hard)
+Answer questions within 30 seconds
+Tap "Submit Answer" to check your response
+Use "Show Question" to reveal the answer
+Navigate with Next/Previous arrows
+
+## Managing Flashcards
+Tap the "+" (Plus) button on the quiz screen
+Enter Question and Answer
+Tap "Add Card" to save
+To edit, tap the  edit icon on any flashcard
+To delete, tap the  delete icon on any flashcard
+
+## Viewing Results
+Tap "Results" in the bottom navigation bar
+View all your past quiz attempts
+See score, difficulty, date, and time
